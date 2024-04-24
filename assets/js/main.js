@@ -100,7 +100,7 @@ const fecha = () => {
     modalArea.innerHTML = `
     <div class="modal-actions">
         <button class="cancelar" onclick="fecha()">Cancelar</button>
-        <button onClick="cart">Adicionar ao carrinho</button>
+        <button onClick="cart()">Adicionar ao carrinho</button>
     </div>
     `
 }
