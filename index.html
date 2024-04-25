@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/styles/base.css">
@@ -15,7 +16,7 @@
     <header>
         
         <div class="headerContainer">
-            <div class="headerContent container">
+            <div class="headerContent container-base">
                 <nav>
                     <div class="nav-logo">Loja Virtual</div>
                     <ul class="nav-list">
@@ -38,7 +39,7 @@
     </header>
 
     <main>
-        <div class="mainContent container">
+        <div class="mainContent container-base">
             <h2>Lista de Produtos</h2>
 
             <div class="products-container">
@@ -125,12 +126,12 @@
         </div>
 
         <div class="modal">
-            <div class="modal-content">
+            <div class="modal-content container-base">
                 <div class="modal-box">
 
                     <div class="modal-actions">
-                        <button class="cancelar" onclick="fecha()">Cancelar</button>
-                        <button onclick="cart()">Adicionar ao carrinho</button>
+                        <button type="button" class="btn btn-primary cancelar" onclick="fecha()">Cancelar</button>
+                        <button type="button" class="btn btn-primary" onclick="cart()">Adicionar ao Carrinho</button>
                     </div>
                 </div>
             </div>
