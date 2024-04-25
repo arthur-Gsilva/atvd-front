@@ -10,10 +10,15 @@ header{
     background-color: rgb(48, 136, 218);
 }
 
-
+.headerContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .headerContent{
-    margin: 0 auto;
+    flex: 1;
 }
 
 nav{
@@ -97,7 +102,7 @@ main{
 
 .modal{
     background-color: #222222da;
-    position: absolute;
+    position: fixed;
     inset: 0;
     justify-content: center;
     align-items: center;
