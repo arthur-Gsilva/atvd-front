@@ -39,6 +39,10 @@ nav{
 .nav-item a{
     text-decoration: none;
     color: #fff;
+    transition: .2s;
+}
+.nav-item a:hover{
+    text-decoration: underline;
 }
 
 
@@ -81,8 +85,8 @@ main{
 }
 
 .product-item .img-area img{
-    height: auto;
-    width: 70px;
+    height: auto !important;
+    width: 70px !important;
 }
 
 .product-info{
